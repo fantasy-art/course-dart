@@ -1,7 +1,7 @@
-import '../camera.dart';
-import '../chipset14.dart';
-import '../devices.dart';
-import '../screen.dart';
+import '../feature/camera.dart';
+import '../feature//chipset14.dart';
+import '../feature//devices.dart';
+import '../feature//screen.dart';
 
 class Iphon14 extends Devices with ScreenSize, Camera, Chipset14 {
   Iphon14({required super.devName, required super.devPrice});

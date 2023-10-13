@@ -1,5 +1,5 @@
-import 'iphone14.dart';
-import 'iphone15.dart';
+import 'mixin/iphone14.dart';
+import 'mixin/iphone15.dart';
 
 void main() {
   Iphon14 iphon14 = Iphon14(devName: 'iPhone 14 Pro Max', devPrice: 5299);
